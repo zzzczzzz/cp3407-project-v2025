@@ -4,8 +4,9 @@
 **User Story**: As a customer, I want to register and log in so that I can manage my cleaning bookings.  
 **Priority**: 10 (High)  
 **Estimate**: 2 days  
-**Iteration**: 1
-**description**: high priority work as this is the start of the app and the key of this project
+**Iteration**: 1  
+**Description**: High priority work, this is the start of the app and core to the project.
+
 
 ### 2. Book a Cleaner
 **User Story**: As a customer, I want to book a cleaner for a specific date and time so that I can schedule a cleaning when it suits me.  
