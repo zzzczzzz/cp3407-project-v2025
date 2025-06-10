@@ -11,7 +11,7 @@
 ### 2. Book a Cleaner
 **User Story**: As a customer, I want to book a cleaner for a specific date and time so that I can schedule a cleaning when it suits me.  
 **Priority**: 10 (High)  
-**Estimate**: 3 days  
+**Estimate**: 3 days
 **Iteration**: 1
 **description**: one of the high priority work, since this is the actual service I am providing to customers
 
