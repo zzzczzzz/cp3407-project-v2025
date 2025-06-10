@@ -17,10 +17,17 @@ The following is the list of items, which are required to be completed.
 ## Team
 
 It is recommended to complete this assignment in a group of 2-4 students.
-1. Student 1
-2. Student name 2
-3. Name 3
-4. Name 4
+1. Yunseo Choi
+
+## Initial Backlog Ideas
+
+1. As a customer, I want to create an account so that I can manage my bookings. (Priority: High)
+2. As a customer, I want to book a cleaner for a specific date/time. (Priority: High)
+3. As a cleaner, I want to view upcoming appointments. (Priority: High)
+4. As a customer, I want to pay securely online. (Priority: Medium)
+5. As a cleaner, I want to mark a job as completed. (Priority: Medium)
+6. As a customer, I want to rate and review a cleaner after the service. (Priority: Low)
+
 
 
 # Project planning BEFORE iteration-1, (see chapters 1-3)
