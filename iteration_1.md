@@ -15,7 +15,7 @@ User stories or tasks (see chapter 4):
 
 3. [View Upcoming Job](user_stories/1teration1_view_upcoming_job), priority 10, 2 days
 
-4. 
+4. [View Booking history](user_stories/iteration1_view_booking_history), priority 30, 1 day
 In progress:
 * Task-2 (developer name or initials), date started
 * ...
