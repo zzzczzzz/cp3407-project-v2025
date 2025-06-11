@@ -27,7 +27,7 @@ This is a high-priority task required to enable access control and personalizati
 
 ---
 
-## Tasks (Chapter 4 Breakdown):
+## Tasks:
 
 1. Design login and registration UI – 0.5 day  
 2. Create user table/model in database – 0.5 day  
