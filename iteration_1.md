@@ -9,7 +9,7 @@ Checklist:
 * Total estimated amount of work: YY days
 
 User stories or tasks (see chapter 4):
-1. [User Registration & Login](./user_stories/user_story_registration_login.md), priority 10, 2 days
+1. [User Registration & Login](./user_stories/1teration1_users_registration.md), priority 10, 2 days
 
 2. ...
 
