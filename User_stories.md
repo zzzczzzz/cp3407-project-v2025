@@ -48,12 +48,12 @@
 **description**: this is low priority job, reviews can give me feedback and attract other users, but this is not a neccesarry for the app to run
 
 
-### 7. Booking Confirmation Email
-**User Story**: As a customer, I want to receive a confirmation email after booking so that I know the service was scheduled.  
+### 7. View My Booking History
+**User Story**: As a customer, I want to see a list of my past bookings so that I can remember when and what service I used.  
 **Priority**: 30 (Low)  
 **Estimate**: 1 day  
 **Iteration**: 1  
-**description**: this can prevent the customer forgetting the time and date of bookings
+**Description**: This feature helps users keep track of what services they’ve already used, which is useful for repeat customers or scheduling follow ups.
 
 
 ### 8. Contact Support
