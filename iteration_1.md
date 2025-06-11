@@ -11,7 +11,7 @@ Checklist:
 User stories or tasks (see chapter 4):
 1. [User Registration & Login](user_stories/iteration1_users_registration), priority 10, 2 days
 
-2. ...
+2. [Booking cleaner](user_stories/1teration1_book_a_cleaner), priority 10, 3 days
 
 In progress:
 * Task-2 (developer name or initials), date started
