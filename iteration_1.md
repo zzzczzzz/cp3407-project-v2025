@@ -4,9 +4,9 @@ Checklist:
 1. github entry timestamps
 2. User stories are correct: see p39
 
-* Assumed Velocity: ?? 
-* Number of developers: ??
-* Total estimated amount of work: YY days
+* Assumed Velocity: 0.6 
+* Number of developers: 1
+* Total estimated amount of work: 8 days
 
 User stories or tasks (see chapter 4):
 1. [User Registration & Login](user_stories/iteration1_users_registration), priority 10, 2 days
@@ -19,7 +19,7 @@ User stories or tasks (see chapter 4):
 
 
 In progress:
-* Task-2 (developer name or initials), date started
+* user registration - desigining login ui (Yunseo), 16th June started
 * ...
 
 Completed:
@@ -28,7 +28,7 @@ Completed:
 
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
-* 4 weeks left, xx days of estimated amount of work 
+* 4 weeks left, 8 days of estimated amount of work 
 * 2 weeks left, xx days
 * 1 weeks left, xx days
 * 0 weeks left, xx days
