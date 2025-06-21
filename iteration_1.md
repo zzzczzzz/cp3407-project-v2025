@@ -20,16 +20,16 @@ User stories or tasks (see chapter 4):
 
 In progress:
 * user registration - desigining login ui and register ui (Yunseo), 16th June started
-* Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June started
+* user registration - Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June started
 
 Completed:
 * user registration - desigining login ui and register ui (Yunseo), 16th June completed
-* ...
+* user registration - Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June completed
 
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
 * 4 weeks left, 8 days of estimated amount of work 
-* 2 weeks left, xx days
+* 3 weeks left, 7 days of estimated amount of work
 * 1 weeks left, xx days
 * 0 weeks left, xx days
 * Actual Velocity: ?? 
