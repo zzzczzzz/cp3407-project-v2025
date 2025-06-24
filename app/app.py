@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 from werkzeug.security import generate_password_hash, check_password_hash
 from models import db, User
 
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///myclean.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -9,7 +10,7 @@ app.config['SECRET_KEY'] = 'your_secret_key_here'
 
 db.init_app(app)
 
-# Create DB tables
+# Create DB tablesfrom app.app import app
 with app.app_context():
     db.create_all()
 
@@ -24,13 +25,13 @@ def register():
 
         # Basic validation
         if not full_name or not email or not password or not role:
-            flash('All fields are required.')
+            flash('All fields are required.', 'error')
             return redirect(url_for('register'))
 
         # Check for existing user
         existing_user = User.query.filter_by(email=email).first()
         if existing_user:
-            flash('Email already registered.')
+            flash('Email already registered.', 'error')
             return redirect(url_for('register'))
 
         # Hash password and save user
@@ -44,7 +45,7 @@ def register():
         db.session.add(new_user)
         db.session.commit()
 
-        flash('Registration successful!')
+        flash('Registration successful!', 'success')
         return redirect(url_for('register'))  # Or redirect to login
 
     return render_template('register.html')
