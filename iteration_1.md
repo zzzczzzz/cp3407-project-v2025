@@ -21,10 +21,20 @@ User stories or tasks (see chapter 4):
 In progress:
 * user registration - desigining login ui and register ui (Yunseo), 16th June started
 * user registration - Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June started
+* user registration - Implement registration form with validation - create a line for registration form with validaition (Yunseo), 22th June started  
+* user registration - Implement login form and session logic - create a line for login form with validaition (Yunseo), 22th June started
+* user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started
+* Test registration and login flow - testing of what are implemented, 24th june started
 
-Completed:
+  
+Completed :
 * user registration - desigining login ui and register ui (Yunseo), 16th June completed
-* user registration - Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June completed
+* user registration - Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June completed  
+* user registration - Implement registration form with validation - create a line for registration form with validaition (Yunseo), 22th June completed  
+* user registration - Implement login form and session logic - create a line for login form with validaition (Yunseo), 22th June completed
+* user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started
+Completed
+* Test registration and login flow - testing of what are implemented, 24th june completed
 
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
