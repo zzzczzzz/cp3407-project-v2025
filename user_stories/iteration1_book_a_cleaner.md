@@ -39,8 +39,8 @@ This is one of the most essential user stories. It represents the core feature o
 ---
 
 ## UI Design (Mockup Screenshot):
-
+![Booking Cleaner UI](ui/booking.png)
 ---
 
 ## Completed:
-
+task 1
