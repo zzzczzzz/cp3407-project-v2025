@@ -5,6 +5,19 @@
     <title>Login</title>
 </head>
 <body>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <ul>
+      {% for category, message in messages %}
+        <li style="color: {% if category == 'error' %}red{% elif category == 'success' %}green{% endif %};">
+          {{ message }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
 <h2>Login</h2>
 <form method="POST" action="/login">
   <label>Email:</label><br>

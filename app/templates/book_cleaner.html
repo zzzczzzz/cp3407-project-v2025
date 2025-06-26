@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book a Cleaner</title>
+</head>
+<body>
+
+<h2>Book a Cleaner</h2>
+
+<form method="POST" action="/book">
+    <label>Date:</label><br>
+    <input type="date" name="date" required><br><br>
+
+    <label>Time:</label><br>
+    <input type="time" name="time" required><br><br>
+
+    <label>Service Address:</label><br>
+    <input type="text" name="address" required><br><br>
+
+    <label>Select Cleaner (optional):</label><br>
+    <input type="text" name="cleaner_id" placeholder="Cleaner ID (optional)"><br><br>
+
+    <input type="submit" value="Book Cleaner">
+</form>
+
+</body>
+</html>

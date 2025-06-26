@@ -60,13 +60,18 @@ def login():
 
         if user and check_password_hash(user.password_hash, password):
             session['user_id'] = user.id
-            flash('Login successful!')
+            flash('Login successful!', 'success')
             return redirect(url_for('dashboard'))  # placeholder route
 
-        flash('Invalid email or password.')
+        flash('Invalid email or password.', 'error')
         return redirect(url_for('login'))
 
     return render_template('login.html')
+
+@app.route('/dashboard')
+def dashboard():
+    return "Welcome to the Dashboard!"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
