@@ -39,8 +39,8 @@ This is a high-priority task required to enable access control and personalizati
 ---
 
 ## UI Design:
-[Login UI](login_ui.png)
-
+![Registration UI](ui/register.png)
+![Login UI](ui/sign_in.png)
 
 
 

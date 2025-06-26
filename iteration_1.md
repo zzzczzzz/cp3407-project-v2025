@@ -19,14 +19,14 @@ User stories or tasks (see chapter 4):
 
 
 In progress:
-* user registration - desigining login ui and register ui (Yunseo), 16th June started
-* user registration - Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June started
+* user registration - desigining login ui and register ui (Yunseo), 16th June started  
+* user registration - Create user table/model in database - creating user table and using python built in program to create database (Yunseo), 20th June started  
 * user registration - Implement registration form with validation - create a line for registration form with validaition (Yunseo), 22th June started  
-* user registration - Implement login form and session logic - create a line for login form with validaition (Yunseo), 22th June started
-* user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started
-* Test registration and login flow - testing of what are implemented, 24th june started
-* booking cleaner - design booking page ui (yunseo), 26th june started
-* bokking cleaner - implementing booking model in the database
+* user registration - Implement login form and session logic - create a line for login form with validaition (Yunseo), 22th June started  
+* user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started  
+* Test registration and login flow - testing of what are implemented, 24th june started  
+* booking cleaner - design booking page ui (yunseo), 26th june started  
+* bokking cleaner - implementing booking model in the database (yunseo), 26th june started  
 
   
 Completed :
@@ -37,7 +37,9 @@ Completed :
 * user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started
 Completed
 * Test registration and login flow - testing of what are implemented, 24th june completed
+* booking cleaner - design booking page ui, added in the iteration of booking (yunseo), 26th june completed
 
+* 
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
 * 4 weeks left, 8 days of estimated amount of work 
