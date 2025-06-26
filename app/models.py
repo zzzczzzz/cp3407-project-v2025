@@ -21,3 +21,5 @@ class Booking(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
     customer = db.relationship('User', backref='bookings')
+
+# class
