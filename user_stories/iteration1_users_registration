@@ -50,4 +50,6 @@ This is a high-priority task required to enable access control and personalizati
 ## Completed: task 1, task 2, taks 3, task 4, task 5, task 6
 test completed, all message indicating the statue, register succeed, existing email, fill in all fileds are correctly displayed
 the credentials are stored in database, was able to view it using sql database program, password is stored in hash
+in login test, using the right credential redirects to dashboard page, when trying login using unexisting credential
+refreshes the login page and displays meessage saying wrong credential
 completed 24th june
