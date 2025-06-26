@@ -25,6 +25,8 @@ In progress:
 * user registration - Implement login form and session logic - create a line for login form with validaition (Yunseo), 22th June started
 * user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started
 * Test registration and login flow - testing of what are implemented, 24th june started
+* booking cleaner - design booking page ui (yunseo), 26th june started
+* bokking cleaner - implementing booking model in the database
 
   
 Completed :
