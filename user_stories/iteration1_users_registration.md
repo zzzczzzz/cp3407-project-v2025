@@ -40,8 +40,7 @@ This is a high-priority task required to enable access control and personalizati
 
 ## UI Design:
 ![Registration UI](ui/register.png)
-
-
+![Login UI](ui/sign_in.png)
 
 
 
