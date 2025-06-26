@@ -10,3 +10,14 @@ class User(db.Model):
     password_hash = db.Column(db.Text, nullable=False)
     role = db.Column(db.String(20))  # e.g., "customer" or "cleaner"
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+class Booking(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    customer_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    booking_datetime = db.Column(db.DateTime, nullable=False)
+    address = db.Column(db.String(200), nullable=False)
+    notes = db.Column(db.Text)
+    status = db.Column(db.String(20), default='pending')
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+    customer = db.relationship('User', backref='bookings')
