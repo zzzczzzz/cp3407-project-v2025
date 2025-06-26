@@ -42,5 +42,4 @@ This is one of the most essential user stories. It represents the core feature o
 ![Booking Cleaner UI](ui/booking.png)
 ---
 
-## Completed:
-task 1
+## Completed: task 1
