@@ -15,6 +15,12 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
 
+
+# login page as first page of web app
+@app.route('/')
+def home():
+    return redirect(url_for('login'))
+
 # Route to render registration form
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -62,7 +68,7 @@ def login():
         if user and check_password_hash(user.password_hash, password):
             session['user_id'] = user.id
             flash('Login successful!', 'success')
-            return redirect(url_for('book_cleaner'))  # move to booking after login
+            return redirect(url_for('dashboard')) # go to main page after log in
 
         flash('Invalid email or password.', 'error')
         return redirect(url_for('login'))
@@ -103,7 +109,17 @@ def book_cleaner():
 
 @app.route('/dashboard')
 def dashboard():
-    return "Welcome to the Dashboard!"
+    if 'user_id' not in session:
+        flash('Please log in to access this page.', 'error')
+        return redirect(url_for('login'))
+    return render_template('dashboard.html')
+
+#to clear the session after user sings out
+@app.route('/logout')
+def logout():
+    session.clear()
+    flash('You have been logged out.', 'success')
+    return redirect(url_for('login'))
 
 
 if __name__ == '__main__':
