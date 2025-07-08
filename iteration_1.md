@@ -39,6 +39,7 @@ Completed
 * Test registration and login flow - testing of what are implemented, 24th june completed
 * booking cleaner - design booking page ui, added in the iteration of booking (yunseo), 26th june completed
 * booking cleaner - implementing booking model in the database (yunseo), 26th june completed
+* booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display
 
 * 
 ### Burn Down for iteration-1 (see chapter 4):
