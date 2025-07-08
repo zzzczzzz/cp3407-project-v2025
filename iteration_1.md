@@ -17,7 +17,7 @@ User stories or tasks (see chapter 4):
 
 4. [View Booking history](user_stories/iteration1_view_booking_history), priority 30, 1 day
 
-To Do: tasks described for each user stories in their own user stories.md
+To Do: tasks described for each user stories in their own user stories.md, and in readme.md
 
 
 In progress:
@@ -60,10 +60,10 @@ The following features were implemented to support the user stories:
 - **Navigation Links**  
   Pages such as login and registration include links to each other to improve user navigation.
 
-- **session validation**
+- **Session Validation**
   without proper session id, proceeding to any other features in the web app is blocked.
 
-* 
+
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
 * 4 weeks left, 8 days of estimated amount of work 
