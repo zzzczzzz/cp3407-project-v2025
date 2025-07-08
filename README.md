@@ -39,6 +39,8 @@ It is recommended to complete this assignment in a group of 2-4 students.
 - Week 2: Assigned user stories across Iteration 1 and Iteration 2  
 - Week 3: Created detailed files for user stories with task breakdowns  
 - Week 4: Started UI mockup designs using Figma; added first task as in progress
+- after completion of iteration 1, add gitHub pages for: Design explanation, Testing documentation, Tools used, Screenshots of deployed app
+
 
 
 
