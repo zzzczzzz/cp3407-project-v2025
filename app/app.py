@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from werkzeug.security import generate_password_hash, check_password_hash
-from models import db, User
+from models import db, User, Booking
+from datetime import datetime
 
 
 app = Flask(__name__)
@@ -46,7 +47,7 @@ def register():
         db.session.commit()
 
         flash('Registration successful!', 'success')
-        return redirect(url_for('register'))  # Or redirect to login
+        return redirect(url_for('login'))  # redirect login
 
     return render_template('register.html')
 
@@ -61,12 +62,44 @@ def login():
         if user and check_password_hash(user.password_hash, password):
             session['user_id'] = user.id
             flash('Login successful!', 'success')
-            return redirect(url_for('dashboard'))  # placeholder route
+            return redirect(url_for('book_cleaner'))  # move to booking after login
 
         flash('Invalid email or password.', 'error')
         return redirect(url_for('login'))
 
     return render_template('login.html')
+
+@app.route('/book', methods=['GET', 'POST'])
+def book_cleaner():
+    # Check login for both GET and POST
+    customer_id = session.get('user_id')
+    if not customer_id:
+        flash("You must be logged in to access booking.", 'error')
+        return redirect('/login')
+
+    if request.method == 'POST':
+        date = request.form['date']
+        time = request.form['time']
+        address = request.form['address']
+        notes = request.form['notes']
+
+        booking_datetime = datetime.strptime(f"{date} {time}", "%Y-%m-%d %H:%M")
+
+        booking = Booking(
+            customer_id=customer_id,
+            booking_datetime=booking_datetime,
+            address=address,
+            notes=notes,
+            status="Pending"
+        )
+        db.session.add(booking)
+        db.session.commit()
+
+        flash("Booking confirmed!", 'success')
+        return redirect('/book')
+
+    return render_template('booking.html')
+
 
 @app.route('/dashboard')
 def dashboard():

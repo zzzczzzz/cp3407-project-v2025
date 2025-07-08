@@ -6,6 +6,19 @@
 </head>
 <body>
 
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <ul>
+      {% for category, message in messages %}
+        <li style="color: {% if category == 'error' %}red{% elif category == 'success' %}green{% endif %};">
+          {{ message }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+
 <h2>Book a Cleaner</h2>
 
 <form method="POST" action="/book">
@@ -20,6 +33,9 @@
 
     <label>Select Cleaner (optional):</label><br>
     <input type="text" name="cleaner_id" placeholder="Cleaner ID (optional)"><br><br>
+
+    <label>Additional Notes (optional):</label><br>
+    <textarea name="notes" placeholder="Any specific requests or instructions..."></textarea><br><br>
 
     <input type="submit" value="Book Cleaner">
 </form>
