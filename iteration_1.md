@@ -26,7 +26,7 @@ In progress:
 * user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started  
 * Test registration and login flow - testing of what are implemented, 24th june started  
 * booking cleaner - design booking page ui (yunseo), 26th june started  
-* bokking cleaner - implementing booking model in the database (yunseo), 26th june started  
+* booking cleaner - implementing booking model in the database (yunseo), 26th june started  
 
   
 Completed :
@@ -38,6 +38,8 @@ Completed :
 Completed
 * Test registration and login flow - testing of what are implemented, 24th june completed
 * booking cleaner - design booking page ui, added in the iteration of booking (yunseo), 26th june completed
+* booking cleaner - implementing booking model in the database (yunseo), 26th june completed
+* booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display
 
 * 
 ### Burn Down for iteration-1 (see chapter 4):
