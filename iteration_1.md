@@ -17,6 +17,8 @@ User stories or tasks (see chapter 4):
 
 4. [View Booking history](user_stories/iteration1_view_booking_history), priority 30, 1 day
 
+To Do: tasks described for each user stories in their own user stories.md
+
 
 In progress:
 * user registration - desigining login ui and register ui (Yunseo), 16th June started  
@@ -26,7 +28,8 @@ In progress:
 * user registration - hashing the credentials - hash the credentials to store securely (Yunseo), 22th June started  
 * Test registration and login flow - testing of what are implemented, 24th june started  
 * booking cleaner - design booking page ui (yunseo), 26th june started  
-* booking cleaner - implementing booking model in the database (yunseo), 26th june started  
+* booking cleaner - implementing booking model in the database (yunseo), 26th june started
+* booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display 6th july started
 
   
 Completed :
@@ -39,13 +42,13 @@ Completed
 * Test registration and login flow - testing of what are implemented, 24th june completed
 * booking cleaner - design booking page ui, added in the iteration of booking (yunseo), 26th june completed
 * booking cleaner - implementing booking model in the database (yunseo), 26th june completed
-* booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display
+* booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display 7th july completed
 
 * 
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
 * 4 weeks left, 8 days of estimated amount of work 
 * 3 weeks left, 7 days of estimated amount of work
-* 1 weeks left, xx days
+* 1 weeks left, 4 days of estimated amount of work
 * 0 weeks left, xx days
 * Actual Velocity: ?? 
