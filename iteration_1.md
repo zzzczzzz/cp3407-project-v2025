@@ -44,6 +44,7 @@ Completed
 * booking cleaner - design booking page ui, added in the iteration of booking (yunseo), 26th june completed
 * booking cleaner - implementing booking model in the database (yunseo), 26th june completed
 * booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display 7th july completed
+* * booking history - loading booking history of logged in customer, 10th july completed
 
 ## Additional Implementation Details (Iteration 1)
 
