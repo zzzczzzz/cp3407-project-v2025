@@ -30,6 +30,7 @@ In progress:
 * booking cleaner - design booking page ui (yunseo), 26th june started  
 * booking cleaner - implementing booking model in the database (yunseo), 26th june started
 * booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display 6th july started
+* booking history - loading booking history of logged in customer, 9th july started
 
   
 Completed :
