@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking History</title>
+</head>
+<body>
+
+<h2>Your Booking History</h2>
+
+{% if bookings %}
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Status</th>
+        </tr>
+        {% for booking in bookings %}
+            <tr>
+                <td>{{ booking.booking_datetime.strftime('%Y-%m-%d') }}</td>
+                <td>{{ booking.booking_datetime.strftime('%H:%M') }}</td>
+                <td>{{ booking.status }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>No past bookings found.</p>
+{% endif %}
+
+<a href="{{ url_for('dashboard') }}">Back to Main page</a>
+
+</body>
+</html>

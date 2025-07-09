@@ -121,6 +121,22 @@ def logout():
     flash('You have been logged out.', 'success')
     return redirect(url_for('login'))
 
+# load booking history based on user id
+@app.route('/history')
+def booking_history():
+    user_id = session.get('user_id')
+    if not user_id:
+        flash("Please log in to view your booking history.", 'error')
+        return redirect(url_for('login'))
+
+    now = datetime.now()
+    bookings = Booking.query.filter(
+        Booking.customer_id == user_id,
+        Booking.booking_datetime < now
+    ).order_by(Booking.booking_datetime.desc()).all()
+
+    return render_template('booking_history.html', bookings=bookings)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
