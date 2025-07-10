@@ -33,7 +33,7 @@ In progress:
 * booking cleaner - implementing booking model in the database (yunseo), 26th june started
 * booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display 6th july started
 * booking history - loading booking history of logged in customer, 9th july started
-* cleaner accepts booking - creating route to display pending bookings, query to load pendings, create route to accepct their desired pending bookings, only cleaners can access cleaner dashboard, 11th july started
+* cleaner accepts booking - creating route to display pending bookings, query to load pendings, create route to accepct their desired pending bookings, only cleaners can access cleaner dashboard, change the statu once accepted, and update the cleaner name in view bookings history for customer. 11th july started
 
   
 Completed :
