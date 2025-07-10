@@ -14,12 +14,14 @@
             <th>Date</th>
             <th>Time</th>
             <th>Status</th>
+            <th>Cleaner</th>
         </tr>
-        {% for booking in bookings %}
+        {% for booking, cleaner_name in bookings %}
             <tr>
                 <td>{{ booking.booking_datetime.strftime('%Y-%m-%d') }}</td>
                 <td>{{ booking.booking_datetime.strftime('%H:%M') }}</td>
                 <td>{{ booking.status }}</td>
+                <td>{{ cleaner_name or 'N/A' }}</td>
             </tr>
         {% endfor %}
     </table>

@@ -130,12 +130,17 @@ def booking_history():
         return redirect(url_for('login'))
 
     now = datetime.now()
-    bookings = Booking.query.filter(
+
+    # Get past bookings with cleaner info using join
+    bookings = db.session.query(Booking, User.full_name).outerjoin(
+        User, Booking.cleaner_id == User.id
+    ).filter(
         Booking.customer_id == user_id,
         Booking.booking_datetime < now
     ).order_by(Booking.booking_datetime.desc()).all()
 
     return render_template('booking_history.html', bookings=bookings)
+
 
 
 if __name__ == '__main__':
