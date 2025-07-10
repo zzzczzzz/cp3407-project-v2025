@@ -6,7 +6,7 @@ Checklist:
 
 * Assumed Velocity: 0.6 
 * Number of developers: 1
-* Total estimated amount of work: 8 days
+* Total estimated amount of work: 8 days -> 9.5 days as new user story is added
 
 User stories or tasks (see chapter 4):
 1. [User Registration & Login](user_stories/iteration1_users_registration), priority 10, 2 days
@@ -17,6 +17,8 @@ User stories or tasks (see chapter 4):
 
 4. [View Booking history](user_stories/iteration1_view_booking_history), priority 30, 1 day
 
+5. New User story [Cleaner Accepts Booking](user_stories/iteration1_cleaner_accept_booking.md), priority 10, 1.5 days
+   
 To Do: tasks described for each user stories in their own user stories.md, and in readme.md
 
 
@@ -70,6 +72,6 @@ The following features were implemented to support the user stories:
 Update this at least once per week
 * 4 weeks left, 8 days of estimated amount of work 
 * 3 weeks left, 7 days of estimated amount of work
-* 1 weeks left, 4 days of estimated amount of work
+* 1 weeks left, 4 days of estimated amount of work, 1.5days of worked added newly total 5.5 days left
 * 0 weeks left, xx days
 * Actual Velocity: ?? 
