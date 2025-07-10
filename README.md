@@ -41,7 +41,7 @@ It is recommended to complete this assignment in a group of 2-4 students.
 - Week 4: Started UI mockup designs using Figma; added first task as in progress
 - week 4: complete user story 1
 - week 5: complete user story 2
-- week 6(final week of iteration 1): complete userstories 3 and 4
+- week 6(final week of iteration 1): complete userstories 3 and 4 * new user story 5
 - week 6: upon completion of iteration 1, work on the css to style web pages, seperate main pages for customer and cleaner
 - week 6: implement final test to run the works done so far
 - after completion of iteration 1, add gitHub pages for: Design explanation, Testing documentation, Tools used, Screenshots of deployed app
@@ -58,13 +58,15 @@ It is recommended to complete this assignment in a group of 2-4 students.
 **User Stories:**
 
 
-1. [User Registration & Login](user_stories/iteration1_users_registration), priority 10, 2 days
+1. [User Registration & Login](user_stories/iteration1_users_registration.md), priority 10, 2 days
 
-2. [Booking cleaner](user_stories/1teration1_book_a_cleaner), priority 10, 3 days
+2. [Booking cleaner](user_stories/1teration1_book_a_cleaner.md), priority 10, 3 days
 
-3. [View Upcoming Job](user_stories/1teration1_view_upcoming_job), priority 10, 2 days
+3. [View Upcoming Job](user_stories/1teration1_view_upcoming_job.md), priority 10, 2 days
 
-4. [View Booking history](user_stories/iteration1_view_booking_history), priority 30, 1 day
+4. [View Booking history](user_stories/iteration1_view_booking_history.md), priority 30, 1 day
+
+5. New User story [Cleaner Accepts Booking](user_stories/iteration1_cleaner_accept_booking.md), priority 10, 1.5 days
 
 **Total: 8 days**
 
