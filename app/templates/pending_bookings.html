@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pending Bookings</title>
+</head>
+<body>
+
+<h2>Pending Bookings</h2>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% for category, message in messages %}
+    <p style="color: {% if category == 'success' %}green{% else %}red{% endif %};">{{ message }}</p>
+  {% endfor %}
+{% endwith %}
+
+{% if bookings %}
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Address</th>
+            <th>Notes</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+        {% for booking in bookings %}
+            <tr>
+                <td>{{ booking.booking_datetime.strftime('%Y-%m-%d') }}</td>
+                <td>{{ booking.booking_datetime.strftime('%H:%M') }}</td>
+                <td>{{ booking.address }}</td>
+                <td>{{ booking.notes or "No notes" }}</td>
+                <td>{{ booking.status }}</td>
+                <td>
+                    <form action="{{ url_for('accept_booking', booking_id=booking.id) }}" method="post">
+                        <button type="submit">Accept</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>No pending bookings available.</p>
+{% endif %}
+
+<br>
+<a href="{{ url_for('cleaner_dashboard') }}">Back to Dashboard</a>
+
+</body>
+</html>
