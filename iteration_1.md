@@ -13,7 +13,7 @@ User stories or tasks (see chapter 4):
 
 2. [Booking cleaner](user_stories/iteration1_book_a_cleaner.md), priority 10, 3 days
 
-3. [View Upcoming Job](user_stories/iteratoin1_view_upcoming_job), priority 10, 2 days
+3. [View Upcoming Job](user_stories/iteratoin1_view_upcoming_job.md), priority 10, 2 days
 
 4. [View Booking history](user_stories/iteration1_view_booking_history.md), priority 30, 1 day
 
