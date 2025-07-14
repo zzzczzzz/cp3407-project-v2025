@@ -78,5 +78,5 @@ Update this at least once per week
 * 4 weeks left, 8 days of estimated amount of work 
 * 3 weeks left, 7 days of estimated amount of work
 * 1 weeks left, 4 days of estimated amount of work, 1.5days of worked added newly total 5.5 days left
-* 0 weeks left, xx days
+* 0 weeks left, 2 days of estimated amount of work
 * Actual Velocity: ?? 
