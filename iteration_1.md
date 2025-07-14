@@ -9,13 +9,13 @@ Checklist:
 * Total estimated amount of work: 8 days -> 9.5 days as new user story is added
 
 User stories or tasks (see chapter 4):
-1. [User Registration & Login](user_stories/iteration1_users_registration), priority 10, 2 days
+1. [User Registration & Login](user_stories/iteration1_users_registration.md), priority 10, 2 days
 
-2. [Booking cleaner](user_stories/iteration1_book_a_cleaner), priority 10, 3 days
+2. [Booking cleaner](user_stories/iteration1_book_a_cleaner.md), priority 10, 3 days
 
-3. [View Upcoming Job](user_stories/iteration1_view_upcoming_job), priority 10, 2 days
+3. [View Upcoming Job](user_stories/iteration1_view_upcoming_job.md), priority 10, 2 days
 
-4. [View Booking history](user_stories/iteration1_view_booking_history), priority 30, 1 day
+4. [View Booking history](user_stories/iteration1_view_booking_history.md), priority 30, 1 day
 
 5. New User story [Cleaner Accepts Booking](user_stories/iteration1_cleaner_accept_booking.md), priority 10, 1.5 days
    
@@ -35,6 +35,7 @@ In progress:
 * booking history - loading booking history of logged in customer, 9th july started
 * cleaner accepts booking - creating route to display pending bookings, query to load pendings, create route to accepct their desired pending bookings, only cleaners can access cleaner dashboard, change the statu once accepted, and update the cleaner name in view bookings history for customer. 11th july started
 * view upcomming jobs - load upcomming jobs from database, display bookings with date time and location 13th july started
+* for all iterations, style the html file following the prototype desgin, and create automated testing 14th july started
 
   
 Completed :
@@ -50,6 +51,7 @@ Completed
 * booking cleaner - date, time picking in html form, save the booking in sql, validation and comfirmation message on display 7th july completed
 * booking history - loading booking history of logged in customer, 10th july completed
 * cleaner accepts booking - creating route to display pending bookings, query to load pendings, create route to accepct their desired pending bookings, only cleaners can access cleaner dashboard, change the statu once accepted, and update the cleaner name in view bookings history for customer. 13th july completed
+* view upcomming jobs - load upcomming jobs from database, display bookings with date time and location 14th july completed
 
 ## Additional Implementation Details (Iteration 1)
 
