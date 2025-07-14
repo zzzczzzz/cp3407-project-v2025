@@ -186,6 +186,26 @@ def view_pending_bookings():
     return render_template('pending_bookings.html', bookings=pending_bookings)
 
 
+# for cleaners to view their upcoming jobs in web page
+@app.route('/upcoming-jobs')
+def view_upcoming_jobs():
+    if 'user_id' not in session or session.get('user_role') != 'cleaner':
+        flash('Unauthorized access.', 'error')
+        return redirect(url_for('login'))
+
+    cleaner_id = session['user_id']
+    now = datetime.now()
+
+    upcoming_bookings = db.session.query(Booking, User.full_name).join(
+        User, Booking.customer_id == User.id
+    ).filter(
+        Booking.cleaner_id == cleaner_id,
+        Booking.booking_datetime >= now
+    ).order_by(Booking.booking_datetime.asc()).all()
+
+    return render_template('upcoming_jobs.html', bookings=upcoming_bookings)
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 

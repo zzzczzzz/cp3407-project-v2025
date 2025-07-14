@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upcoming Jobs</title>
+</head>
+<body>
+
+<h2>Upcoming Jobs</h2>
+
+{% if bookings %}
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Customer</th>
+            <th>Address</th>
+            <th>Notes</th>
+            <th>Status</th>
+        </tr>
+        {% for booking, customer_name in bookings %}
+            <tr>
+                <td>{{ booking.booking_datetime.strftime('%Y-%m-%d') }}</td>
+                <td>{{ booking.booking_datetime.strftime('%H:%M') }}</td>
+                <td>{{ customer_name }}</td>
+                <td>{{ booking.address }}</td>
+                <td>{{ booking.notes }}</td>
+                <td>{{ booking.status }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>No upcoming jobs assigned.</p>
+{% endif %}
+
+<br>
+<a href="{{ url_for('cleaner_dashboard') }}">Back to Dashboard</a>
+
+</body>
+</html>
