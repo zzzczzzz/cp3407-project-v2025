@@ -15,3 +15,4 @@
   ### application feedback
   - cleaer and customer must be directed to their own dashboard as their role is different
   - logout option must be available
+  - navigating to other pages must be easy, however keep their activity restricted based on their role
