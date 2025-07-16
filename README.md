@@ -45,6 +45,7 @@ It is recommended to complete this assignment in a group of 2-4 students.
 - week 6: upon completion of iteration 1, work on the css to style web pages, seperate main pages for customer and cleaner
 - week 6: implement final test to run the works done so far
 - after completion of iteration 1, add gitHub pages for: Design explanation, Testing documentation, Tools used, Screenshots of deployed app
+- week 7: ui design of each iteration and dashboard, upon completion start with iteration 2
 - 
 
 
